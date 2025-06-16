@@ -1,0 +1,88 @@
+[
+  {
+    "Id": 1,
+    "domain": "agriculture",
+    "title": "Planting Seeds",
+    "duration": 5,
+    "completed": true,
+    "animations": [
+      {"type": "illustration", "src": "seed-planting-1.svg", "duration": 2000},
+      {"type": "illustration", "src": "seed-planting-2.svg", "duration": 2000},
+      {"type": "illustration", "src": "seed-planting-3.svg", "duration": 2000}
+    ],
+    "audioUrl": "/audio/lesson-1.mp3",
+    "exercises": [1, 2],
+    "description": "Learn the basics of planting seeds for healthy crops"
+  },
+  {
+    "Id": 2,
+    "domain": "agriculture",
+    "title": "Watering Plants",
+    "duration": 4,
+    "completed": true,
+    "animations": [
+      {"type": "illustration", "src": "watering-1.svg", "duration": 2000},
+      {"type": "illustration", "src": "watering-2.svg", "duration": 2000}
+    ],
+    "audioUrl": "/audio/lesson-2.mp3",
+    "exercises": [3],
+    "description": "How much and when to water your plants"
+  },
+  {
+    "Id": 3,
+    "domain": "agriculture",
+    "title": "Harvesting Crops",
+    "duration": 6,
+    "completed": false,
+    "animations": [
+      {"type": "illustration", "src": "harvest-1.svg", "duration": 2500},
+      {"type": "illustration", "src": "harvest-2.svg", "duration": 2500}
+    ],
+    "audioUrl": "/audio/lesson-3.mp3",
+    "exercises": [4, 5],
+    "description": "Know when and how to harvest for best results"
+  },
+  {
+    "Id": 4,
+    "domain": "health",
+    "title": "Washing Hands",
+    "duration": 3,
+    "completed": false,
+    "animations": [
+      {"type": "illustration", "src": "handwash-1.svg", "duration": 1500},
+      {"type": "illustration", "src": "handwash-2.svg", "duration": 1500},
+      {"type": "illustration", "src": "handwash-3.svg", "duration": 1500}
+    ],
+    "audioUrl": "/audio/lesson-4.mp3",
+    "exercises": [6],
+    "description": "Proper handwashing to prevent sickness"
+  },
+  {
+    "Id": 5,
+    "domain": "health",
+    "title": "Healthy Eating",
+    "duration": 5,
+    "completed": false,
+    "animations": [
+      {"type": "illustration", "src": "nutrition-1.svg", "duration": 2000},
+      {"type": "illustration", "src": "nutrition-2.svg", "duration": 2000}
+    ],
+    "audioUrl": "/audio/lesson-5.mp3",
+    "exercises": [7, 8],
+    "description": "Choose foods that make your body strong"
+  },
+  {
+    "Id": 6,
+    "domain": "finance",
+    "title": "Saving Money",
+    "duration": 4,
+    "completed": false,
+    "animations": [
+      {"type": "illustration", "src": "saving-1.svg", "duration": 2000},
+      {"type": "illustration", "src": "saving-2.svg", "duration": 2000}
+    ],
+    "audioUrl": "/audio/lesson-6.mp3",
+    "exercises": [9],
+    "description": "Start saving small amounts for the future"
+  }
+]

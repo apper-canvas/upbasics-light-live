@@ -1,0 +1,269 @@
+[
+  {
+    "Id": 1,
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": {
+      "text": "What do seeds need to grow?",
+      "illustration": "seed-question.svg"
+    },
+    "visualPrompt": "seed-growth-options.svg",
+    "audioPrompt": "/audio/exercise-1-question.mp3",
+    "options": [
+      {"id": "water", "text": "Water", "illustration": "water-icon.svg"},
+      {"id": "rocks", "text": "Rocks", "illustration": "rocks-icon.svg"},
+      {"id": "metal", "text": "Metal", "illustration": "metal-icon.svg"}
+    ],
+    "correctAnswer": "water",
+    "feedback": {
+      "correct": {
+        "text": "Great! Seeds need water to grow big and strong!",
+        "illustration": "happy-plant.svg",
+        "audio": "/audio/correct-1.mp3"
+      },
+      "incorrect": {
+        "text": "Try again! Think about what plants drink.",
+        "illustration": "thinking-plant.svg",
+        "audio": "/audio/try-again-1.mp3"
+      }
+    }
+  },
+  {
+    "Id": 2,
+    "lessonId": 1,
+    "type": "drag-drop",
+    "question": {
+      "text": "Put the planting steps in order",
+      "illustration": "planting-steps.svg"
+    },
+    "visualPrompt": "drag-drop-planting.svg",
+    "audioPrompt": "/audio/exercise-2-question.mp3",
+    "items": [
+      {"id": "dig", "text": "Dig hole", "illustration": "dig-icon.svg"},
+      {"id": "plant", "text": "Put seed in", "illustration": "seed-icon.svg"},
+      {"id": "cover", "text": "Cover with soil", "illustration": "soil-icon.svg"}
+    ],
+    "correctAnswer": ["dig", "plant", "cover"],
+    "feedback": {
+      "correct": {
+        "text": "Perfect! You know how to plant seeds!",
+        "illustration": "success-plant.svg",
+        "audio": "/audio/correct-2.mp3"
+      },
+      "incorrect": {
+        "text": "Almost! Think about what comes first.",
+        "illustration": "confused-farmer.svg",
+        "audio": "/audio/try-again-2.mp3"
+      }
+    }
+  },
+  {
+    "Id": 3,
+    "lessonId": 2,
+    "type": "tap-sequence",
+    "question": {
+      "text": "Tap the plants that need water",
+      "illustration": "garden-scene.svg"
+    },
+    "visualPrompt": "thirsty-plants.svg",
+    "audioPrompt": "/audio/exercise-3-question.mp3",
+    "tapTargets": [
+      {"id": "plant1", "x": 20, "y": 30, "needsWater": true},
+      {"id": "plant2", "x": 50, "y": 40, "needsWater": false},
+      {"id": "plant3", "x": 80, "y": 35, "needsWater": true}
+    ],
+    "correctAnswer": ["plant1", "plant3"],
+    "feedback": {
+      "correct": {
+        "text": "Well done! You can tell which plants are thirsty!",
+        "illustration": "happy-plants.svg",
+        "audio": "/audio/correct-3.mp3"
+      },
+      "incorrect": {
+        "text": "Look for plants with droopy leaves.",
+        "illustration": "wilted-plant.svg",
+        "audio": "/audio/try-again-3.mp3"
+      }
+    }
+  },
+  {
+    "Id": 4,
+    "lessonId": 3,
+    "type": "multiple-choice",
+    "question": {
+      "text": "When should you harvest tomatoes?",
+      "illustration": "tomato-plant.svg"
+    },
+    "visualPrompt": "tomato-stages.svg",
+    "audioPrompt": "/audio/exercise-4-question.mp3",
+    "options": [
+      {"id": "green", "text": "Green", "illustration": "green-tomato.svg"},
+      {"id": "yellow", "text": "Yellow", "illustration": "yellow-tomato.svg"},
+      {"id": "red", "text": "Red", "illustration": "red-tomato.svg"}
+    ],
+    "correctAnswer": "red",
+    "feedback": {
+      "correct": {
+        "text": "Right! Red tomatoes taste the best!",
+        "illustration": "delicious-tomato.svg",
+        "audio": "/audio/correct-4.mp3"
+      },
+      "incorrect": {
+        "text": "Wait until tomatoes change color completely.",
+        "illustration": "unripe-tomato.svg",
+        "audio": "/audio/try-again-4.mp3"
+      }
+    }
+  },
+  {
+    "Id": 5,
+    "lessonId": 3,
+    "type": "drag-drop",
+    "question": {
+      "text": "Which tools do you need for harvesting?",
+      "illustration": "harvest-scene.svg"
+    },
+    "visualPrompt": "tool-selection.svg",
+    "audioPrompt": "/audio/exercise-5-question.mp3",
+    "items": [
+      {"id": "basket", "text": "Basket", "illustration": "basket-icon.svg"},
+      {"id": "scissors", "text": "Scissors", "illustration": "scissors-icon.svg"},
+      {"id": "hammer", "text": "Hammer", "illustration": "hammer-icon.svg"},
+      {"id": "gloves", "text": "Gloves", "illustration": "gloves-icon.svg"}
+    ],
+    "correctAnswer": ["basket", "scissors", "gloves"],
+    "feedback": {
+      "correct": {
+        "text": "Excellent! You picked the right tools!",
+        "illustration": "successful-harvest.svg",
+        "audio": "/audio/correct-5.mp3"
+      },
+      "incorrect": {
+        "text": "Think about what helps pick and carry crops safely.",
+        "illustration": "thinking-farmer.svg",
+        "audio": "/audio/try-again-5.mp3"
+      }
+    }
+  },
+  {
+    "Id": 6,
+    "lessonId": 4,
+    "type": "tap-sequence",
+    "question": {
+      "text": "Tap the handwashing steps in order",
+      "illustration": "handwash-station.svg"
+    },
+    "visualPrompt": "handwash-steps.svg",
+    "audioPrompt": "/audio/exercise-6-question.mp3",
+    "tapTargets": [
+      {"id": "soap", "x": 20, "y": 40, "step": 2},
+      {"id": "water", "x": 50, "y": 30, "step": 1},
+      {"id": "scrub", "x": 70, "y": 45, "step": 3},
+      {"id": "dry", "x": 85, "y": 35, "step": 4}
+    ],
+    "correctAnswer": ["water", "soap", "scrub", "dry"],
+    "feedback": {
+      "correct": {
+        "text": "Perfect! Your hands are clean and safe!",
+        "illustration": "clean-hands.svg",
+        "audio": "/audio/correct-6.mp3"
+      },
+      "incorrect": {
+        "text": "Remember: water first, then soap, scrub, and dry.",
+        "illustration": "dirty-hands.svg",
+        "audio": "/audio/try-again-6.mp3"
+      }
+    }
+  },
+  {
+    "Id": 7,
+    "lessonId": 5,
+    "type": "multiple-choice",
+    "question": {
+      "text": "Which food gives you energy?",
+      "illustration": "food-groups.svg"
+    },
+    "visualPrompt": "energy-foods.svg",
+    "audioPrompt": "/audio/exercise-7-question.mp3",
+    "options": [
+      {"id": "candy", "text": "Candy", "illustration": "candy-icon.svg"},
+      {"id": "banana", "text": "Banana", "illustration": "banana-icon.svg"},
+      {"id": "soda", "text": "Soda", "illustration": "soda-icon.svg"}
+    ],
+    "correctAnswer": "banana",
+    "feedback": {
+      "correct": {
+        "text": "Yes! Bananas give you healthy energy!",
+        "illustration": "strong-person.svg",
+        "audio": "/audio/correct-7.mp3"
+      },
+      "incorrect": {
+        "text": "Choose foods that grow from plants for healthy energy.",
+        "illustration": "tired-person.svg",
+        "audio": "/audio/try-again-7.mp3"
+      }
+    }
+  },
+  {
+    "Id": 8,
+    "lessonId": 5,
+    "type": "drag-drop",
+    "question": {
+      "text": "Sort foods into healthy and unhealthy",
+      "illustration": "food-sorting.svg"
+    },
+    "visualPrompt": "food-categories.svg",
+    "audioPrompt": "/audio/exercise-8-question.mp3",
+    "items": [
+      {"id": "apple", "text": "Apple", "illustration": "apple-icon.svg", "category": "healthy"},
+      {"id": "chips", "text": "Chips", "illustration": "chips-icon.svg", "category": "unhealthy"},
+      {"id": "carrot", "text": "Carrot", "illustration": "carrot-icon.svg", "category": "healthy"},
+      {"id": "cookies", "text": "Cookies", "illustration": "cookies-icon.svg", "category": "unhealthy"}
+    ],
+    "correctAnswer": {
+      "healthy": ["apple", "carrot"],
+      "unhealthy": ["chips", "cookies"]
+    },
+    "feedback": {
+      "correct": {
+        "text": "Great job! You know healthy foods!",
+        "illustration": "healthy-body.svg",
+        "audio": "/audio/correct-8.mp3"
+      },
+      "incorrect": {
+        "text": "Think about which foods come from nature.",
+        "illustration": "confused-eater.svg",
+        "audio": "/audio/try-again-8.mp3"
+      }
+    }
+  },
+  {
+    "Id": 9,
+    "lessonId": 6,
+    "type": "multiple-choice",
+    "question": {
+      "text": "Where is the safest place to keep money?",
+      "illustration": "money-safety.svg"
+    },
+    "visualPrompt": "money-storage-options.svg",
+    "audioPrompt": "/audio/exercise-9-question.mp3",
+    "options": [
+      {"id": "pocket", "text": "Pocket", "illustration": "pocket-icon.svg"},
+      {"id": "box", "text": "Safe Box", "illustration": "box-icon.svg"},
+      {"id": "ground", "text": "Ground", "illustration": "ground-icon.svg"}
+    ],
+    "correctAnswer": "box",
+    "feedback": {
+      "correct": {
+        "text": "Smart! A safe box keeps money secure!",
+        "illustration": "secure-money.svg",
+        "audio": "/audio/correct-9.mp3"
+      },
+      "incorrect": {
+        "text": "Think about where money won't get lost or stolen.",
+        "illustration": "lost-money.svg",
+        "audio": "/audio/try-again-9.mp3"
+      }
+    }
+  }
+]

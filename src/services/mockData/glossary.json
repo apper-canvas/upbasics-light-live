@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 1,
+    "term": "Seed",
+    "domain": "agriculture",
+    "illustration": "seed-illustration.svg",
+    "audioUrl": "/audio/glossary-seed.mp3",
+    "simpleDefinition": "A small part of a plant that grows into a new plant when planted in soil"
+  },
+  {
+    "Id": 2,
+    "term": "Soil",
+    "domain": "agriculture",
+    "illustration": "soil-illustration.svg",
+    "audioUrl": "/audio/glossary-soil.mp3",
+    "simpleDefinition": "The brown earth where plants grow and get food"
+  },
+  {
+    "Id": 3,
+    "term": "Harvest",
+    "domain": "agriculture",
+    "illustration": "harvest-illustration.svg",
+    "audioUrl": "/audio/glossary-harvest.mp3",
+    "simpleDefinition": "Picking ripe crops from plants when they are ready to eat"
+  },
+  {
+    "Id": 4,
+    "term": "Fertilizer",
+    "domain": "agriculture",
+    "illustration": "fertilizer-illustration.svg",
+    "audioUrl": "/audio/glossary-fertilizer.mp3",
+    "simpleDefinition": "Special food for plants that helps them grow bigger and stronger"
+  },
+  {
+    "Id": 5,
+    "term": "Germs",
+    "domain": "health",
+    "illustration": "germs-illustration.svg",
+    "audioUrl": "/audio/glossary-germs.mp3",
+    "simpleDefinition": "Tiny things that can make you sick if they get inside your body"
+  },
+  {
+    "Id": 6,
+    "term": "Nutrition",
+    "domain": "health",
+    "illustration": "nutrition-illustration.svg",
+    "audioUrl": "/audio/glossary-nutrition.mp3",
+    "simpleDefinition": "Good things in food that help your body stay healthy and strong"
+  },
+  {
+    "Id": 7,
+    "term": "Exercise",
+    "domain": "health",
+    "illustration": "exercise-illustration.svg",
+    "audioUrl": "/audio/glossary-exercise.mp3",
+    "simpleDefinition": "Moving your body to make your muscles and heart stronger"
+  },
+  {
+    "Id": 8,
+    "term": "Hygiene",
+    "domain": "health",
+    "illustration": "hygiene-illustration.svg",
+    "audioUrl": "/audio/glossary-hygiene.mp3",
+    "simpleDefinition": "Keeping your body clean to stay healthy and prevent sickness"
+  },
+  {
+    "Id": 9,
+    "term": "Savings",
+    "domain": "finance",
+    "illustration": "savings-illustration.svg",
+    "audioUrl": "/audio/glossary-savings.mp3",
+    "simpleDefinition": "Money you keep safe to use later for important things"
+  },
+  {
+    "Id": 10,
+    "term": "Budget",
+    "domain": "finance",
+    "illustration": "budget-illustration.svg",
+    "audioUrl": "/audio/glossary-budget.mp3",
+    "simpleDefinition": "A plan for how to spend your money wisely"
+  },
+  {
+    "Id": 11,
+    "term": "Income",
+    "domain": "finance",
+    "illustration": "income-illustration.svg",
+    "audioUrl": "/audio/glossary-income.mp3",
+    "simpleDefinition": "Money you earn from working or selling things"
+  },
+  {
+    "Id": 12,
+    "term": "Interest",
+    "domain": "finance",
+    "illustration": "interest-illustration.svg",
+    "audioUrl": "/audio/glossary-interest.mp3",
+    "simpleDefinition": "Extra money you get when you save money in a bank"
+  }
+]

@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'react-toastify/dist/ReactToastify.css';
+
+@layer base {
+  html {
+    font-size: 18px;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  #root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@layer components {
+  .hide-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btn-primary {
+    @apply bg-primary hover:bg-green-700 active:scale-95 transform transition-all duration-200 text-white font-semibold py-4 px-6 rounded-xl shadow-card min-h-[64px] flex items-center justify-center gap-3;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary hover:bg-orange-600 active:scale-95 transform transition-all duration-200 text-white font-semibold py-4 px-6 rounded-xl shadow-card min-h-[64px] flex items-center justify-center gap-3;
+  }
+
+  .btn-accent {
+    @apply bg-accent hover:bg-blue-700 active:scale-95 transform transition-all duration-200 text-white font-semibold py-4 px-6 rounded-xl shadow-card min-h-[64px] flex items-center justify-center gap-3;
+  }
+
+  .card {
+    @apply bg-surface rounded-2xl shadow-card p-6 border border-gray-200;
+  }
+
+  .card-elevated {
+    @apply bg-surface rounded-2xl shadow-elevated p-6 border border-gray-200;
+  }
+
+  .touch-target {
+    @apply min-h-[64px] min-w-[64px] flex items-center justify-center;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Toast customizations */
+.Toastify__toast {
+  border-radius: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.Toastify__toast--success {
+  background-color: #43A047;
+}
+
+.Toastify__toast--error {
+  background-color: #E53935;
+}
+
+.Toastify__toast--warning {
+  background-color: #FFA726;
+}
+
+.Toastify__toast--info {
+  background-color: #29B6F6;
+}

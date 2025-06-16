@@ -1,0 +1,11 @@
+{
+  "Id": 1,
+  "language": "english",
+  "literacyLevel": "beginner",
+  "selectedDomains": ["agriculture", "health"],
+  "completedLessons": [1, 2],
+  "currentProgress": {
+    "3": 45,
+    "4": 20
+  }
+}
